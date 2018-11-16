@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class=" row my_margin" >
+        <!-- 左侧logo -->
+        <div class="col-sm-2 my_nav_bg">
+           <img src="img/logo.png" alt="">
+        </div>
+        <!-- 右侧导航 -->
+       <div class="col-sm-10">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">首页</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="detail_intro.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    冠纯简介
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="detail_intro.html">公司简介</a>
+                                    <a class="dropdown-item" href="detail_intro.html">发展历程</a>
+                                    <a class="dropdown-item" href="detail_intro.html">公司荣誉</a>
+                                    <a class="dropdown-item" href="detail_intro.html">经营理念</a>
+                                    <a class="dropdown-item" href="detail_intro.html">组织框架</a>
+                                    <a class="dropdown-item" href="detail_intro.html">员工风采</a>
+                                </div>
+                            </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="detail_cooperat.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                合作方
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="detail_cooperat.html">鲁南风车花海旅游节</a>
+                                <a class="dropdown-item" href="detail_cooperat.html">复兴樱桃采摘节</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="detail_product.html">产品中心</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link " href="detail_news.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            新闻中心
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="detail_news.html">业界动态</a>
+                            <a class="dropdown-item" href="detail_news.html">我们的动态</a>                           
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="detail_success.html">成功案例</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+       </div>
+       <!-- 轮播 -->
+       <div class="second">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/carousel/20180417034306912.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="img/carousel/20180417034654668.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="img/carousel/20180417034704586.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+       </div>
+	</header>
+    <!-- 展示图：3张 -->
+    <div class="container">
+        <!-- 图片 -->
+        <div  class="row my_margind d-flex justify-content-between">
+            <div class="col-sm-4 my_pir " >
+                <div><img src="img/1.jpg" alt=""></div>
+                <!-- 查看详情 -->
+                <a href="#" class="my_btn">查看详情</a>
+                <div class="my_center">金装</div>
+            </div>
+            <div class=" col-sm-4 my_pir">
+                <div><img src="img/2.jpg" alt=""></div>
+                <!-- 查看详情 -->
+                <a href="#" class="my_btn">查看详情</a>
+                <div class="my_center">金装</div>
+            </div>
+            <div class=" col-sm-4 my_pir">
+                <div> <img src="img/3.jpg" alt=""></div>
+                <!-- 查看详情 -->
+                <a href="#" class="my_btn">查看详情</a>
+                <div class="my_center">金装</div>
+                <div></div>
+            </div>
+        </div>
+        <!-- 简介 -->
+        <div class="my_text">冠纯简介 / ABOUT US</div> 
+        <!-- 文字介绍： 左侧图片 右侧文字 -->           
+        <div class="row d-flex justify-content-between">
+            <!-- 图片 -->
+            <div class="col-sm-6 intro" ><img src="img/pir.jpg" alt="" ></div>
+            <!-- 右侧文字 -->
+            <div class="col-sm-6 my_text_intro" >
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;四川冠纯啤酒有限公司,位于古代南方丝绸之路的一大驿站，是凉山彝族自治州的一座古镇，也是红军长征走过的地方-礼州古镇！以健康饮品为主营业务。公司依托强有力的研发团队，已建成云南昆明、安徽晗山、山东潍坊三大啤酒生产基地，在国内健康饮品、食品领域卓然鹤立。</span><br>
+                <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司以“冠纯啤酒、天下共享”为发展目标，成功研发冠纯啤酒、冠纯纯净水、冠纯苏打水、冠纯红酒等系列健康饮品，以“冠纯”“凉山雪”“凉山口服液”等系列品牌推向市场，辐射全国与及周边国家（缅甸、越南、老挝、柬埔寨）近年来公司业绩蒸蒸日上，势头猛进，为适应发展需要，将在西昌市北工业区拓建新厂房，建立高端啤酒研究院，打造健康饮食项目示范点，建成销售的大型综合园。</span><br>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;立足当下，展望未来，四川冠纯啤酒有限公司期待与更多的有志之士携手打造啤酒业的新传奇……</span>
+            </div>
+        </div>
+        <!-- 了解更多 --> 
+        <div class="more"><span>了解更多</span></div>    
+    </div>  
+    <!-- 新闻中心 -->
+    <div class="news">
+        <!-- 标题 -->
+        <span>新闻中心 / NEWS</span>
+        <div class="row my_news ">
+            <!-- 4篇文章 -->
+            <div class="col-sm-3">
+                <div>
+                    <div  class="my_text_news_box">
+                        <a href="#" class="my_text_news">
+                        <span>据说不会讲啤酒故事的酒友不是好哥们有句话说得好，喝啤酒的男人朋友多。据说不会讲啤酒故事的酒友不是好哥们有句话说得好，喝啤酒的男人朋</span><hr />
+                        <div><span>据说不会讲啤酒故事的酒友不是好哥们有句话说得好，喝啤</span></div>
+                        
+                        </a>
+                    </div>
+                    <!-- 小三角 -->
+                    <div class="my_cir"></div>
+                    <!-- 编号 -->
+                    <div class="my_cirle">1</div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div>
+                    <div  class="my_text_news_box">
+                        <a href="#"  class="my_text_news">
+                        <span>《啤酒》国家标准修订 甲醛将被禁止添加近日，在《啤酒》国家标准(以下简称《标准》)起草工作组成立会议上，中国酒业协会常务副秘书长兼啤 </span><hr />
+                        <div><span>《啤酒》国家标准修订 甲醛将被禁止添加</span></div>
+                        </a>
+                    </div>
+                    <div class="my_cir"></div>
+                    <div class="my_cirle">2</div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div>
+                    <div  class="my_text_news_box">
+                        <a href="#"  class="my_text_news">
+                        <span>深度 | 明年不管你是做什么行业的，都要看看这篇文章人成熟与不成熟跟年龄没有关系。人成熟不成熟，就是你能不能站在对方的角度去看待事 </span>
+                        <hr />
+                        <div><span>深度 | 明年不管你是做什么行业的，都要看看这篇文章</span></div>
+                        </a>
+                    </div>
+                    <div class="my_cir"></div>
+                    <div class="my_cirle">3</div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div>
+                    <div class="my_text_news_box">
+                        <a href="#"  class="my_text_news">
+                        <span>经销商 | 你还在想要1月份的货？别傻了！没准儿就要到高价货了！***近，食品行业正在发生很大变化！部分中小企业正在悄然涨价，部分大型企 </span>
+                        <hr />
+                        <div><span>经销商 | 你还在想要1月份的货？别傻了！没准儿就要到高价</span></div>
+                        </a>
+                    </div>
+                    <div class="my_cir"></div>
+                    <div class="my_cirle">4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 合作方 -->
+    <div class="container">
+        <!-- 标题 -->
+        <div class="row con_title">
+           <div class="col-sm-6"><a href="#" class="con_one">合作方 / HEZUOFANG</a></div>
+           <div class="col-sm-6"><a href="#" class="more_text">了解更多</a></div>
+        </div>
+        <!-- 图文摘要 -->
+        <div class="pir_con">
+           <div class="row con_content" style="left:0%;">
+               <ul class="col-sm-3" >
+                   <a href="#">
+                       <img src="img/5.jpg" alt="">
+                       <div>鲁南风车花海旅游节</div>
+                   </a>
+                   <a href="#">
+                       <img src="img/6.jpg" alt="">
+                       <div>鲁南风车花海旅游节</div>
+                   </a>
+               </ul>
+               <ul class="col-sm-3">
+                   <a href="#">
+                       <img src="img/7.jpg" alt="">
+                       <div>鲁南风车花海旅游节</div>
+                   </a>
+                   <a href="#">
+                       <img src="img/8.jpg" alt="">
+                       <div>鲁南风车花海旅游节</div>
+                   </a>
+               </ul>
+               <ul class="col-sm-3">
+                   <a href="#">
+                       <img src="img/9.jpg" alt="">
+                       <div>复兴樱桃采摘节（...</div>
+                   </a>
+                   <a href="#">
+                       <img src="img/10.jpg" alt="">
+                       <div>复兴樱桃采摘节（...</div>
+                   </a>
+               </ul>
+               <ul class="col-sm-3">
+                   <a href="#">
+                       <img src="img/11.jpg" alt="">
+                       <div>复兴樱桃采摘节（...</div>
+                   </a>
+                   <a href="#">
+                       <img src="img/12.jpg" alt="">
+                       <div>复兴樱桃采摘节（...</div>
+                   </a>
+               </ul>
+               <ul class="col-sm-3">
+                    <a href="#">
+                        <img src="img/13.jpg" alt="">
+                        <div>复兴樱桃采摘节（...</div>
+                    </a>
+                    <a href="#">
+                        <img src="img/14.jpg" alt="">
+                        <div>复兴樱桃采摘节（...</div>
+                    </a>
+                </ul>
+                <!--叠加部分 -->
+                <ul class="col-sm-3" >
+                    <a href="#">
+                        <img src="img/5.jpg" alt="">
+                        <div>鲁南风车花海旅游节</div>
+                    </a>
+                    <a href="#">
+                        <img src="img/6.jpg" alt="">
+                        <div>鲁南风车花海旅游节</div>
+                    </a>
+                </ul>
+                <ul class="col-sm-3">
+                    <a href="#">
+                        <img src="img/7.jpg" alt="">
+                        <div>鲁南风车花海旅游节</div>
+                    </a>
+                    <a href="#">
+                        <img src="img/8.jpg" alt="">
+                        <div>鲁南风车花海旅游节</div>
+                    </a>
+                </ul>
+                <ul class="col-sm-3">
+                    <a href="#">
+                        <img src="img/9.jpg" alt="">
+                        <div>复兴樱桃采摘节（...</div>
+                    </a>
+                    <a href="#">
+                        <img src="img/10.jpg" alt="">
+                        <div>复兴樱桃采摘节（...</div>
+                    </a>
+                </ul>
+                <ul class="col-sm-3">
+                    <a href="#">
+                        <img src="img/11.jpg" alt="">
+                        <div>复兴樱桃采摘节（...</div>
+                    </a>
+                    <a href="#">
+                        <img src="img/12.jpg" alt="">
+                        <div>复兴樱桃采摘节（...</div>
+                    </a>
+                </ul>
+           </div> 
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div>四川冠纯啤酒有限公司 © 版权所有  地址：四川省西昌市礼州古镇 ICP备案号：蜀ICP备18011515号-1</div>
+        <div>联系电话：17780847777（王总）0834-3291111邮箱：2575876717@qq.com</div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
